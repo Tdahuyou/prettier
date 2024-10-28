@@ -1,8 +1,7 @@
 # prettier
 
-## 📝 summary
-
-prettier notes
+- 📝 summary
+  - prettier notes
 
 ## 🔗 links
 
