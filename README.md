@@ -1,7 +1,5 @@
 # prettier
 
-- prettier notes
-
 ## 🔗 links
 
 - https://github.com/prettier/prettier?tab=readme-ov-file
