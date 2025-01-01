@@ -26,15 +26,14 @@
   - semi 默认值为 true，表示格式化之后，语句结尾会自动加上分号。如果你想要让代码看起来更简洁一些，想要把语句结尾的分号给去掉，可以将 semi 配置给手动设置为 false。
   
 
-
-
-## ⏰ 待分组
-
-- [ ] [0003. singleQuote](https://github.com/Tdahuyou/prettier/tree/main/0003.%20singleQuote/README.md) <!-- [locale](./0003.%20singleQuote/README.md) -->  
+- [x] [0003. singleQuote](https://github.com/Tdahuyou/prettier/tree/main/0003.%20singleQuote/README.md) <!-- [locale](./0003.%20singleQuote/README.md) -->  
   - [1. 💻 demos.1 - singleQuote - 使用单引号](https://github.com/Tdahuyou/prettier/tree/main/0003.%20singleQuote/README.md#1--demos1---singlequote---使用单引号)
   - singleQuote 默认值是 false，表示格式化后默认使用的是双引号，如果你想要使用单引号，可以将 singleQuote 设置为 true。
   
 
-- [ ] [0004. 在 VSCode 的 settings.json 中书写 prettier 配置](https://github.com/Tdahuyou/prettier/tree/main/0004.%20%E5%9C%A8%20VSCode%20%E7%9A%84%20settings.json%20%E4%B8%AD%E4%B9%A6%E5%86%99%20prettier%20%E9%85%8D%E7%BD%AE/README.md) <!-- [locale](./0004.%20%E5%9C%A8%20VSCode%20%E7%9A%84%20settings.json%20%E4%B8%AD%E4%B9%A6%E5%86%99%20prettier%20%E9%85%8D%E7%BD%AE/README.md) -->  
+## 与 vscode 结合
+
+
+- [x] [0004. 在 VSCode 的 settings.json 中书写 prettier 配置](https://github.com/Tdahuyou/prettier/tree/main/0004.%20%E5%9C%A8%20VSCode%20%E7%9A%84%20settings.json%20%E4%B8%AD%E4%B9%A6%E5%86%99%20prettier%20%E9%85%8D%E7%BD%AE/README.md) <!-- [locale](./0004.%20%E5%9C%A8%20VSCode%20%E7%9A%84%20settings.json%20%E4%B8%AD%E4%B9%A6%E5%86%99%20prettier%20%E9%85%8D%E7%BD%AE/README.md) -->  
   - [1. 💻 demos.1 - 将 prettier 配置信息写到项目根目录中的 .vscode/settings.json 文件中](https://github.com/Tdahuyou/prettier/tree/main/0004.%20%E5%9C%A8%20VSCode%20%E7%9A%84%20settings.json%20%E4%B8%AD%E4%B9%A6%E5%86%99%20prettier%20%E9%85%8D%E7%BD%AE/README.md#1--demos1---将-prettier-配置信息写到项目根目录中的-vscodesettingsjson-文件中)
   
