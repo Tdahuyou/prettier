@@ -1,14 +1,18 @@
 {
   "scripts": {
-    "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=prettier",
-    "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=prettier",
-    "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=prettier",
-    "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=prettier"
+    "merge": "           node ./node_modules/tnotes   --mergeREADME         --repoName=prettier",
+    "update": "          node ./node_modules/tnotes   --updateREADME        --repoName=prettier",
+    "distribute": "      node ./node_modules/tnotes   --distributeREADME    --repoName=prettier",
+    "sync": "            node ./node_modules/tnotes   --syncREADME          --repoName=prettier",
+    "docs:publish": "    node ./node_modules/tnotes/scripts/docs-publish.js"
   },
   "tnotesConfig": {
     "ignoreDirs": [
       ".vscode",
       ".git"
+    ],
+    "doneNoteIds": [
+      "0001"
     ]
   }
 }
