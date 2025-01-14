@@ -1,14 +1,30 @@
 {
   "scripts": {
-    "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=prettier",
-    "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=prettier",
-    "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=prettier",
-    "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=prettier"
+    "distribute": "       node ./node_modules/tnotes   --distributeREADME    --repoName=prettier",
+    "docs:publish": "     node ./node_modules/tnotes/scripts/docs-publish.js",
+    "merge": "            node ./node_modules/tnotes   --mergeREADME         --repoName=prettier",
+    "sync": "             node ./node_modules/tnotes   --syncREADME          --repoName=prettier",
+    "update": "           node ./node_modules/tnotes   --updateREADME        --repoName=prettier"
   },
   "tnotesConfig": {
-    "ignoreDirs": [
-      ".vscode",
-      ".git"
-    ]
+    "dirList": {
+      ".git": {
+        "ignore": true
+      },
+      ".vscode": {
+        "ignore": true
+      },
+      "0001": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "assets": {
+        "ignore": true
+      },
+      "md-imgs": {
+        "ignore": true
+      }
+    }
   }
 }
